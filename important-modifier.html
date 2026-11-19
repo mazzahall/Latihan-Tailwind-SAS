@@ -1,0 +1,33 @@
+<!-- TODO: 
+  Tanpa menghapus tag <style> atau class "kotak-kustom" yang sudah ada di bawah ini, 
+  paksalah warna background kotak tersebut berubah menjadi merah (bg-red-500) 
+  dan teksnya menjadi putih (text-white) menggunakan fitur Important Modifier di Tailwind!
+-->
+
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Latihan Important Modifier Tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      /* Simulasi CSS bawaan template / library lama yang sulit ditimpa */
+      .kotak-kustom {
+        background-color: #d1d5db;
+        color: #1f2937;
+      }
+    </style>
+  </head>
+  <body class="p-8">
+    <!-- Tambahkan class Tailwind dengan Important Modifier pada elemen di bawah ini -->
+    <div class="kotak-kustom p-6 rounded-xl font-bold shadow-md bg-red-500">
+      Kotak ini masih abu-abu karena kalah prioritas dengan CSS manual. Ubah
+      warnanya!
+    </div>
+  </body>
+</html>
+
+<!-- Note:   
+  1. Penulisan kode / sintaks yang digunakan: ...
+  2. Kesimpulan / Alasan: ...
+-->

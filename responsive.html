@@ -1,0 +1,36 @@
+<!-- TODO: 
+  atur agar daftar kartu di bawah ini tampil:
+  - 1 KOLOM saat dibuka di layar HP (mobile / default)
+  - 2 KOLOM saat dibuka di layar Tablet (ukuran md)
+  - 4 KOLOM saat dibuka di layar Laptop/Desktop (ukuran lg)
+-->
+
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Responsive Design Tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="p-8 bg-gray-100">
+    <h1 class="text-2xl font-bold mb-6 text-gray-800">Daftar Proyek Kelas</h1>
+
+    <!-- Tambahkan utility class responsive pada container grid di bawah ini -->
+    <div class="grid gap-4">
+      <div class="bg-white p-6 rounded-xl shadow">Proyek 1: E-Voting OSIS</div>
+      <div class="bg-white p-6 rounded-xl shadow">Proyek 2: Perpustakaan</div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        Proyek 3: Acak Tempat Duduk
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">Proyek 4: Kotak Saran</div>
+    </div>
+  </body>
+</html>
+
+<!-- Note: 
+  1. Penulisan kode / sintaks yang digunakan: ...
+  2. Kesimpulan / Alasan: ...
+-->
