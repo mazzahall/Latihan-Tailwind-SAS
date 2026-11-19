@@ -20,17 +20,18 @@
 
     <!-- Tambahkan utility class responsive pada container grid di bawah ini -->
     <div class="grid gap-4">
-      <div class="bg-white p-6 rounded-xl shadow">Proyek 1: E-Voting OSIS</div>
-      <div class="bg-white p-6 rounded-xl shadow">Proyek 2: Perpustakaan</div>
-      <div class="bg-white p-6 rounded-xl shadow">
+      <div class="bg-white p-6 rounded-xl shadow block md:block lg:block">Proyek 1: E-Voting OSIS</div>
+      <div class="bg-white p-6 rounded-xl shadow hidden md:block lg:block">Proyek 2: Perpustakaan</div>
+      <div class="bg-white p-6 rounded-xl shadow hidden md:hidden lg:block">
         Proyek 3: Acak Tempat Duduk
       </div>
-      <div class="bg-white p-6 rounded-xl shadow">Proyek 4: Kotak Saran</div>
+      <div class="bg-white p-6 rounded-xl shadow hidden md:hidden lg:block">Proyek 4: Kotak Saran</div>
+
     </div>
   </body>
 </html>
 
 <!-- Note: 
-  1. Penulisan kode / sintaks yang digunakan: ...
-  2. Kesimpulan / Alasan: ...
+  1. Penulisan kode / sintaks yang digunakan: block md:block lg:block
+  2. Kesimpulan / Alasan: untuk menentukan kondisi lebar dan tinggi suatu layar, agar design/layout dapat responsive
 -->
